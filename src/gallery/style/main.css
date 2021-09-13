@@ -1,0 +1,25 @@
+#hashtag button {
+    margin-left: 20px;
+    margin-right: 30px;
+
+}
+
+
+
+.flex-column {
+    max-width: 480px;
+}
+
+picture {
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px dashed gray;
+}
+
+picture:hover {
+    transform: scale(1.05, 1.05);
+    background-color: rgb(204, 204, 204);
+    border: 1px solid crimson;
+    cursor: pointer;
+}
