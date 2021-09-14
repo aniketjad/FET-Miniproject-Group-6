@@ -23,3 +23,19 @@ picture:hover {
     border: 1px solid crimson;
     cursor: pointer;
 }
+
+/* 14-09-2021 */
+a img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 25px;
+    border: crimson 2px solid;
+    border-radius: 10%;
+    filter: grayscale();
+    padding: 2px;
+}
+
+a img:hover {
+    filter: none;
+    transform: scale(1.08, 1.08);
+}
