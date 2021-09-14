@@ -4,8 +4,6 @@
 
 }
 
-
-
 .flex-column {
     max-width: 480px;
 }
@@ -26,16 +24,22 @@ picture:hover {
 
 /* 14-09-2021 */
 a img {
+    border: crimson 2px solid;
+    border-radius: 10%;
     max-width: 100%;
     max-height: 100%;
     margin: 25px;
-    border: crimson 2px solid;
-    border-radius: 10%;
-    filter: grayscale();
+    
+    filter: blur(1px) grayscale();
+
     padding: 2px;
 }
 
 a img:hover {
     filter: none;
     transform: scale(1.08, 1.08);
+}
+
+h4:hover{    
+    transform: scale(1.2,1.2); 
 }
