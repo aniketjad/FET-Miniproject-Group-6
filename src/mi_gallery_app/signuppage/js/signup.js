@@ -31,7 +31,7 @@ $(document).ready(function(){
                   success: (response)=>{
                           alert("Registration Successful!");
                           console.log(response); 
-                          window.open('../html/home.html');             
+                          window.open('../html/login.html');             
                   },
                   error:()=>{console.log("some network issue");},
                   complete:()=>{ console.log("my call completed");}

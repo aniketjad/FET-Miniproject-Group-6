@@ -13,6 +13,20 @@
       "email": "ashishi@cybage.com",
       "mobileNumber": "123456",
       "password": "12345"
+    },
+    {
+      "id": "3",
+      "name": "aaaa",
+      "email": "aaaa@gmail.com",
+      "mobileNumber": "123456",
+      "password": "12345"
+    },
+    {
+      "id": "4",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "mobileNumber": "1234567890",
+      "password": "258"
     }
   ],
   "posts": [
