@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Jhon",
+      "email": "jhon@gmail.com",
+      "mobileNumber": "8585967425",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "ashish",
+      "email": "ashishi@cybage.com",
+      "mobileNumber": "123456",
+      "password": "12345"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

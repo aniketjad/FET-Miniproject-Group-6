@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Register - MI Gallery</title>
-    <link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
-    <link rel="stylesheet" href="../res/fonts/simple-line-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="../res/css/smoothproducts.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
-        <div class="container">
-            <a class="navbar-brand logo" href="index.html">MI Gallery</a>
-            <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
-                <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="registration.html">Register</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page registration-page">
-        <section class="clean-block clean-form dark">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Register - MI Gallery</title>
+        <link rel="stylesheet" href="../res/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+        <link rel="stylesheet" href="../res/fonts/simple-line-icons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+        <link rel="stylesheet" href="../res/css/smoothproducts.css">
+        <script src="../res/js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+        <script src="../res/js/smoothproducts.min.js"></script>
+        <script src="../res/js/theme.js"></script>
+        <script src="../js/signup.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
             <div class="container">
-                <div class="block-heading">
-                    <h2 class="text-info">Registration</h2>
+                <a class="navbar-brand logo" href="index.html">MI-Gallery</a>
+                <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1">
+                    <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="registration.html">Register</a></li>
+                    </ul>
                 </div>
+            </div>
+        </nav>
+        <main class="page registration-page">
+            <section class="clean-block clean-form dark">
+                <div class="container">
+                    <div class="block-heading">
+                        <h2 class="text-info">Registration</h2>
+                    </div>
                 <form>
                     <div class="form-group">
                         <label for="name">Name</label><input class="form-control item" type="text" id="name">
@@ -46,29 +49,23 @@
                         <label for="email">Email</label><input class="form-control item" type="email" id="email">
                     </div>
                     <div class="form-group">
-                        <label for="mobileNo">Mobile No</label><input class="form-control item" type="tel" id="mobileNo">
+                        <label for="mobileNo">Mobile No</label><input class="form-control item" type="tel" id="phone">
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label><input class="form-control item" type="password" id="password">
                     </div>
                     <div class="form-group">
-                        <label for="password"> Confirm Password</label><input class="form-control item" type="password" id="password">
+                        <label for="password"> Confirm Password</label><input class="form-control item" type="password" id="cpassword">
                     </div>
-                    <button class="btn btn-primary btn-block" type="submit">Sign Up</button>
+                    <button class="btn btn-primary btn-block" id="registerBtn" type="submit">Sign Up</button>
                 </form>
+                </div>
+            </section>
+        </main>
+        <footer class="page-footer dark">
+            <div class="footer-copyright">
+                <p>© 2021 Copyright</p>
             </div>
-        </section>
-    </main>
-    <footer class="page-footer dark">
-        <div class="footer-copyright">
-            <p>© 2021 Copyright Text</p>
-        </div>
-    </footer>
-    <script src="../res/js/jquery.min.js"></script>
-    <script src="../res/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
-    <script src="../res/js/smoothproducts.min.js"></script>
-    <script src="../res/js/theme.js"></script>
-</body>
-
+        </footer>
+    </body>
 </html>
